@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*Background*/
+
+.bg-grey-100 {
+    background-color: #222221;
+}
+
+/*Measures*/
+
+.relative {
+    position: relative;
+}
+
+.max-h-40 {
+    max-height: 10rem;
+}
+
+/*Navbar*/
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.display-none {
+    display: none;
+}
+
