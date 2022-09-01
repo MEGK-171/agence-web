@@ -10,43 +10,40 @@
   <title>Document</title>
 <script defer src="/assets/runtime.bundle.js"></script><script defer src="/assets/main.bundle.js"></script></head>
 <body>
-  <header class="bg-grey-100 max-h-11">
-    <div class="overflow-hidden relative">
-      <a href="" class=""><img class=" relative max-h-11" src="./assets/img/logo.jpg" alt="logo"></a>
-      <button type="button" id="darkToggle" class="">Dark Mode</button>
-      <div id="myLinks" class="float-right">
-        <div class="grid grid-cols-2 hidden">
-          <a href="#" class="">
-            <ul>
-              Accueil
-            </ul>
-          </a>
-          <a href="#" class="">
-            <ul>
-              Tarifs
-            </ul>
-          </a>
-          <a href="#" class="">
-            <ul>
-              Contact
-            </ul>
-          </a>
-          <a href="#" class="">
-            <ul>
-              Réalisation
-            </ul>
-          </a>
-          <a href="#" class="">
-            <ul>
-              Qui Sommes-Nous?
-            </ul>
-          </a>
-        </div>
-        <a href="#" class="icon bg-grey-100 text-white" onclick="myFunction()">
-          <i class="fa-solid fa-bars"></i>
-        </a>
+  <header class="bg-grey-100 max-h-12 m-0 p-0 w-screen">
+    <nav class="text-white decoration-none flex justify-between items-center">
+      <a href="#" class="ml-5">
+        <img class="relative max-h-11" src="./assets/img/logo.jpg" alt="logo">
+      </a>
+      <button type="button" id="darkToggle" class="darkToggle">
+        <i class="fa-solid fa-toggle-off"></i>
+      </button>
+      <ul id="nav-mobile" class="flex justify-between items-center gap-3 fixed -left-full top-16 gap-0 flex-col w-screen">
+        <li id="root" class="list-none">
+          <a href="#">Accueil</a>
+        </li>
+        <li id="root" class="list-none">
+          <a href="#">Tarifs</a>
+        </li>
+        <li id="root" id="root" class="list-none">
+          <a href="#">Contact</a>
+        </li>
+        <li id="root" class="list-none">
+          <a href="#">Réalisation</a>
+        </li>
+        <li id="root" class="list-none">
+          <a href="#">Qui Sommes-Nous?</a>
+        </li>
+      </ul>
+      <span id="nav-mobile" class="pr-5">
+        <i class="fa-solid fa-bars"></i>
+      </span>
+      <div class="hidden cursor-pointer">
+        <span class="block w-6 h-1 px-1"></span>
+        <span class="block w-6 h-1 px-1"></span>
+        <span class="block w-6 h-1 px-1"></span>
       </div>
-    </div>
+    </nav>
   </header>
 </body>
 </html>
