@@ -1,11 +1,13 @@
-let btn = document.getElementById("switch");
-let body = document.querySelector("body");
+const btn = document.getElementById("dark-mode");
+const body = document.querySelector("body");
 
-function darkMode() {
-  body.classList.toggle("bg-black");
-  body.classList.toggle("text-white");
-}
+const darkMode = () => {
+  body.classList.toggle("bg-white");
+  body.classList.toggle("text-black");
+  body.classList.toggle("bg-grey-100");
+};
 
 btn.addEventListener("click", darkMode);
 
-export default Darkmode
+export default darkMode;
+
