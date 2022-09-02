@@ -12,13 +12,11 @@
     background-color: #343432;
 }
 
-.darkToggle {
-    background-color: white;
-    color: black;
-}
 
 @media (max-width:768px) {
-    .div{
-        display: block;
-    }
+
+}
+
+@media (min-width:1024px) {
+    
 }
