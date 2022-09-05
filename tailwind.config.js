@@ -16,7 +16,6 @@ module.exports = {
         greenlight: "#6BAE8A",
       },
       white: colors.white,
-      red: colors.red,
     },
     extend: {},
   },
