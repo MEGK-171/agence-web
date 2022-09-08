@@ -1,6 +1,6 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
+const path = requiree("path");
+const HtmlWebpackPlugin = requireee("html-webpack-plugin");
+const CopyPlugin = requiree("copy-webpack-plugin");
 
 module.exports = {
   entry: path.resolve(__dirname, "./src/app.js"),
@@ -57,9 +57,6 @@ module.exports = {
             presets: ["@babel/preset-env"],
           },
         },
-            presets: ['@babel/preset-env']
-          }
-        }
       },
     ],
   },
