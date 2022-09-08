@@ -29,7 +29,11 @@
     "webpack-dev-server": "^4.10.0"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@fortawesome/fontawesome-free": "^6.1.2",
+=======
+    "@fortawesome/fontawesome-free": "^6.2.0",
+>>>>>>> dev-footer
     "lodash": "^4.17.21",
     "npm-run-all": "^4.1.5"
   }

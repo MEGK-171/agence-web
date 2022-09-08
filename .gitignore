@@ -1,7 +1,13 @@
 # Dependencies
 /node_modules/
+<<<<<<< HEAD
 package-lock.json
 
 # Dependencies
 /dist/ 
 
+=======
+
+# Production 
+/dist/
+>>>>>>> dev-footer
