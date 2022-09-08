@@ -9,21 +9,75 @@
   font-style: normal;
 }
 
-.hello {
-  color: red;
+.color-black {
+  background-color: aquamarine;
+}
+@font-face {
   font-family: "Roboto";
-};
+  src: url("../fonts/Roboto/Roboto-Italic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
 
-.bg-green-footer {
-  background-color: #00491F;
-};
+/* ---------Color-------------- */
+.bg-black {
+  background-color: #ffffff;
+}
 
-/*Background*/
+.bg-test {
+  background-color: #ff0000;
+}
 
-.bg-grey-100 {
-    background-color: #222221;
-};
+.bg-testt {
+  background-color: #0004ff;
+}
 
-.bg-grey-200 {
-    background-color: #343432;
-};
+.bg-black1 {
+  background-color: rgb(28, 28, 28);
+}
+
+.white {
+  color: white;
+}
+
+h-32	
+  /*---------Height and Width----------*/
+.w-705 {
+  width: 705px; /* 20rem; 320px */
+}
+
+.h-278 {
+  height: 278px; /* 128px */
+}
+
+.w-768 {
+  width: 768px; /* 288px */
+}
+
+.h-2241 {
+  height: 2241px; /* 384px */
+}
+
+/* ---------Flex------------------ */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+/* --------------Marging------------ */
+
+/* --------------Padding------------- */
