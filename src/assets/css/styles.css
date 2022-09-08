@@ -12,13 +12,11 @@
 .hello {
   color: red;
   font-family: "Roboto";
+};
 
-.bg-green-footer {
+.bg-green-footer{
   background-color: #00491F;
-
-}
-
-/*Background*/
+};
 
 .bg-grey-100 {
     background-color: #222221;

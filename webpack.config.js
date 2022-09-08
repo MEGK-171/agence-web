@@ -20,7 +20,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/home/index.html"),
+      template: path.resolve(__dirname, "./src/index.html"),
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
@@ -57,9 +57,6 @@ module.exports = {
             presets: ["@babel/preset-env"],
           },
         },
-            presets: ['@babel/preset-env']
-          }
-        }
       },
     ],
   },
