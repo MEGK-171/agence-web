@@ -19,67 +19,65 @@
   font-style: normal;
 }
 
-@media screen and (max-width: 425px) {
-  /* ---------Color-------------- */
-  .bg-black {
-    background-color: #ffffff;
-  }
-
-  .bg-test {
-    background-color: #ff0000;
-  }
-
-  .bg-testt {
-    background-color: #0004ff;
-  }
-
-  .bg-black1 {
-    background-color: rgb(28, 28, 28);
-  }
-
-  h-32	
-  /*---------Height and Width----------*/
-.w-80 {
-    width: 31.5rem; /* 20rem; 320px */
-  }
-
-  .h-32 {
-    height: 8rem; /* 128px */
-  }
-
-  .e {
-    color: rgb(185 28 28);
-  }
-
-  .h-1032 {
-    height: 264.5rem; /* 384px */
-  }
-
-  .w-72 {
-    width: 18rem; /* 288px */
-  }
-
-  /* ---------Flex------------------ */
-  .flex {
-    display: flex;
-  }
-
-  .flex-col {
-    flex-direction: column;
-  }
-
-  .justify-center {
-    justify-content: center;
-  }
-
-  .items-center {
-    align-items: center;
-  }
-  .flex-col {
-    flex-direction: column;
-  }
-
-  /* --------------Marging------------ */
-
-  /* --------------Padding------------- */
+/* ---------Color-------------- */
+.bg-black {
+  background-color: #ffffff;
 }
+
+.bg-test {
+  background-color: #ff0000;
+}
+
+.bg-testt {
+  background-color: #0004ff;
+}
+
+.bg-black1 {
+  background-color: rgb(28, 28, 28);
+}
+
+.white {
+  color: white;
+}
+
+h-32	
+  /*---------Height and Width----------*/
+.w-705 {
+  width: 705px; /* 20rem; 320px */
+}
+
+.h-278 {
+  height: 278px; /* 128px */
+}
+
+.w-768 {
+  width: 768px; /* 288px */
+}
+
+.h-2241 {
+  height: 2241px; /* 384px */
+}
+
+/* ---------Flex------------------ */
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+.flex-col {
+  flex-direction: column;
+}
+
+/* --------------Marging------------ */
+
+/* --------------Padding------------- */
