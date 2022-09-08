@@ -23,10 +23,14 @@ module.exports = {
       template: path.resolve(__dirname, "./src/pages/home/index.html"),
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/shop/index.html"),
+      filename: "shop.html",
+    }),
     new CopyPlugin({
       patterns: [
-        { from: "./src/assets/img/", to: "assets/img" },
-        { from: "./src/assets/fonts/", to: "assets/fonts"},
+        { from: "./src/assets/fonts/", to: "assets/fonts/" },
+        { from: "./src/assets/img/", to: "assets/img/" },
       ],
     }),
   ],
@@ -48,8 +52,11 @@ module.exports = {
         test: /\.m?js$/,
         exclude: /(node_modules|bower_components)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
+            presets: ["@babel/preset-env"],
+          },
+        },
             presets: ['@babel/preset-env']
           }
         }
