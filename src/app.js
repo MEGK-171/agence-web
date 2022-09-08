@@ -1,20 +1,13 @@
-import _ from "lodash";
 import "./assets/css/styles.css";
-import Icon from './assets/img/img-test-webpack.jpg';
+import '@fortawesome/fontawesome-free/js/all';
+import "@fortawesome/fontawesome-free/js/all";
 
-function component() {
-  const element = document.createElement('div');
+import Menu from "./components/menu";
+Menu()
 
-  // Lodash, currently included via a script, is required for this line to work
-  element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.classList.add("text-3xl");
+import darkMode from "./components/dark-mode";
+darkMode()
 
-  const myIcon = new Image();
-  myIcon.src = Icon;
+let body = document.querySelector("body")
 
-  element.appendChild(myIcon);
 
-  return element;
-}
-
-document.body.appendChild(component());
