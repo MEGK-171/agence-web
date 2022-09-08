@@ -22,6 +22,8 @@
     "copy-webpack-plugin": "^11.0.0",
     "css-loader": "^6.7.1",
     "html-webpack-plugin": "^5.5.0",
+    "iconfont-webpack-plugin": "^5.0.1",
+    "postcss-loader": "^7.0.1",
     "style-loader": "^3.3.1",
     "tailwindcss": "^3.1.8",
     "webpack": "^5.74.0",
@@ -29,11 +31,9 @@
     "webpack-dev-server": "^4.10.0"
   },
   "dependencies": {
-<<<<<<< HEAD
     "@fortawesome/fontawesome-free": "^6.1.2",
-=======
     "@fortawesome/fontawesome-free": "^6.2.0",
->>>>>>> dev-footer
+    "hamburgers": "^1.2.1",
     "lodash": "^4.17.21",
     "npm-run-all": "^4.1.5"
   }

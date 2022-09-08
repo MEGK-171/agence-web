@@ -1,8 +1,13 @@
-import _ from "lodash";
 import "./assets/css/styles.css";
-<<<<<<< HEAD
 import '@fortawesome/fontawesome-free/js/all';
-
-=======
 import "@fortawesome/fontawesome-free/js/all";
->>>>>>> dev-footer
+
+import Menu from "./components/menu";
+Menu()
+
+import darkMode from "./components/dark-mode";
+darkMode()
+
+let body = document.querySelector("body")
+
+
