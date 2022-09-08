@@ -4,7 +4,7 @@ const nav = document.querySelector("nav");
 
 
 const darkMode = () => {
-  body.classList.toggle("bg-grey-100");
+  body.classList.toggle("bg-customBlack-blacklightdark");
   
   nav.classList.toggle("text-white");
 };
