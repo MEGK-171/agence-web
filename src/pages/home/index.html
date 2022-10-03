@@ -8,38 +8,44 @@
     <link href="../../assets/css/output.css" rel="stylesheet" />
   </head>
   <body class="overflow-x-hidden">
-    <header class="grid grid-cols-2 bg-gradient-to-r from-yellow-700 via-amber-400 to-yellow-800 fixed w-full h-11">
-      <div class="flex items-center pl-2">
-        <i class="fa-solid fa-bars fa-xl"></i>
+    <header class="grid grid-cols-2 bg-gradient-to-r fixed w-full h-14 z-10">
+      <div class="flex flex-row items-center pl-2 bg-gradient-to-l from-yellow-700 via-amber-400 to-yellow-800">
+        <i class="fa-solid fa-bars fa-2xl"></i>
       </div>
-      <div class="flex justify-center items-center pr-2 pb-2 bg-bg-silver">
+      <div class="flex items-center justify-center absolute h-full w-full">
+        <i class="fa-solid fa-house fa-xl"></i>
+      </div>
+      <div class="flex justify-center items-center pr-2 pb-2 bg-silver">
         <h1 class="font-serif italic text-2xl">Meta _ode</h1>
         <div class="absolute pl-5">
           <i class="fa-solid fa-moon fa-lg fa-flip -rotate-6" style="--fa-animation-duration: 4s;"></i>
         </div>
       </div>
     </header> 
-    <section class="grid grid-rows-2 bg-gradient-to-t from-yellow-700 to-gray-300 h-screen pt-12">
-      <div class="flex flex-col items-center justify-center">
-        <h2 class="font-semibold text-xl uppercase z-10">Bienvenue chez</h2>
-        <img src="../../assets/img/metacode-logopng.png" alt="logo" class="object-scale-down">
-      </div>
-      <div class="px-6 text-lg">
-        <p class="uppercase font-bold pb-6">Notre expertise developpement web et notre excellence de delivery au service de vos projets de plateforme web</p>
-        <p class="font-medium font-serif text-white">Bienvenue chez MetaCode <br>
-          MetaCode, agence de développement web, intervient dans l'accompagnement de la réalisation de votre site web jusqu'à son aboutissement <br>
-        </p>
+    <section class="flex flex-col justify-center h-screen pt-14 bg-paper bg-cover bg-center z-0">
+      <div class="backdrop-blur-sm h-screen">
+        <div class="flex flex-col items-center justify-center h-screen pb-20">
+          <h2 class="font-semibold text-2xl uppercase">Bienvenue chez</h2>
+          <img src="../../assets/img/metacode-logopng.png" alt="logo" class="object-scale-down">
+          <p class="uppercase font-bold text-center px-7">Notre expertise developpement web et notre excellence de delivery au service de vos projets de plateforme web</p>
+        </div>
       </div>
     </section>
     <section class="h-max pt-8 bg-gradient-to-b from-yellow-700">
       <h2 class="flex justify-center capitalize font-semibold text-lime-200 text-2xl pb-4">Nos domaines d'expertise</h2>
       <div class="flex flex-col items-center justify-around h-96">
-        <a href="" class="border-2 border-black rounded-full uppercase text-lg px-4">ux/ui</a>
-        <a href="" class="border-2 border-black rounded-full text-lg px-4 capitalize">Développement web</a>
-        <a href="" class="border-2 border-black rounded-full text-lg px-4">Référencement</a>
-        <a href="" class="border-2 border-black rounded-full text-lg px-4 capitalize">E-commerce</a>
-        <a href="" class="border-2 border-black rounded-full text-lg px-4">Data</a>
-        <a href="" class="border-2 border-black rounded-full text-lg px-4">Architecture</a>
+        <div class="flex flex-col items-center">
+          <p class="uppercase text-lg font-semibold pl-4">Responsive</p>
+          <div class="flex items-end justify-end absolute h-24 pr-16">
+            <img src="../../assets/img/checked-mark.svg" alt="validate" width="15%">
+          </div>
+          <div class="bg-responsive bg-center bg-cover h-40 w-40"></div>
+        </div>
+        <p class="text-lg capitalize">Création de site web</p>
+        <p class="text-lg">Référencement</p>
+        <p class="text-lg capitalize">E-commerce</p>
+        <p class="text-lg">Data</p>
+        <p class="text-lg">Architecture</p>
       </div>
       <div class="flex flex-col items-center mt-8 bg-gradient-to-t from-bg-silve">
         <h2 class="capitalize font-semibold text-2xl text-red-800 pb-4">Nos Technologies</h2>

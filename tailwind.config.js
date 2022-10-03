@@ -7,11 +7,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        'bg-silver': "#C0C0C0"
+        'silver': "#C0C0C0"
       },
 
       backgroundImage: {
-        'bg-img': "url(../../src/assets/img/responsive.png)"
+        'responsive': "url('../img/responsive.png')",
+        'paper': "url(../img/paper.svg)"
       }
     },
   },
