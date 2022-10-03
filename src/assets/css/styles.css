@@ -10,18 +10,9 @@
 }
 
 .hello {
-  color: red;
   font-family: "Roboto";
 };
 
-.bg-green-footer{
+.bg-{
   background-color: #00491F;
 };
-
-.bg-grey-100 {
-    background-color: #222221;
-}
-
-.bg-grey-200 {
-    background-color: #343432;
-}
