@@ -13,6 +13,6 @@
   font-family: "Roboto";
 };
 
-.bg-{
-  background-color: #00491F;
+.bg-header-color{
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
 };

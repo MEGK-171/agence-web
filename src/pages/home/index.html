@@ -6,18 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MetaCode</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </head>
   <body class="overflow-x-hidden">
-    <header class="grid grid-cols-2 ">
-      <div class="flex justify-center items-end pt-1">
-        <h1 class="font-serif italic">MetaCode</h1>
-      </div>
-      <div class="flex justify-end items-end pr-2 pt-2">
+    <header class="grid grid-cols-2 bg-gradient-to-r from-yellow-700 via-amber-400 to-yellow-800 fixed w-full">
+      <div class="flex items-end pt-1 pl-2">
         <i class="fa-solid fa-bars fa-xl"></i>
       </div>
+      <div class="flex justify-center pr-2 pt-2">
+        <h1 class="font-serif italic">MetaCode</h1>
+      </div>
     </header>
-    <div class="flex justify-center">
-      <img src="../../assets/img/metacode-logopng.png" alt="logo" width="60%" height="auto">
-    </div>
+    <section class="grid grid-rows-2 bg-gradient-to-t from-yellow-700 to-gray-300 ">
+      <div class="flex justify-center">
+        <img src="../../assets/img/metacode-logopng.png" alt="logo" width="70%" height="auto" class="object-cover hover:object-scale-down">
+      </div>
+      <div class="px-6 text-lg">
+        <p class="uppercase font-bold pb-6 text-gray-700">Notre expertise developpement web et notre excellence de delivery au service de vos projets de plateforme web</p>
+        <p class="font-medium font-serif text-white">Bienvenue chez MetaCode <br>
+          MetaCode, agence de développement web, intervient dans l'accompagnement de la réalisation de votre site web jusqu'à son aboutissement <br>
+        </p>
+        <p class="text-white pt-6 pb-16">Notre équipe en <span class="uppercase text-lg">ux/ui</span> design, développement et graphisme est à l'écoute de vos projets. <br>
+          Site vitrine, site e-commerce, application mobile, logiciel de CRM sur mesure : tout est possible ! Découvrez l’ensemble de nos expertises ci-dessous.
+        </p>
+      </div>
+    </section>
+    <section class="h-max pt-8 bg-gradient-to-b from-yellow-700">
+      <h2 class="flex justify-center capitalize font-semibold text-lime-200 text-2xl pb-4">Nos domaines d'expertise</h2>
+      <div class="flex flex-col items-center justify-around h-96">
+        <a href="" class="border-2 border-black rounded-full uppercase text-lg px-4">ux/ui</a>
+        <a href="" class="border-2 border-black rounded-full text-lg px-4">Developpement web</a>
+        <a href="" class="border-2 border-black rounded-full text-lg px-4">Référencement</a>
+        <a href="" class="border-2 border-black rounded-full text-lg px-4">E-commerce</a>
+        <a href="" class="border-2 border-black rounded-full text-lg px-4">Data</a>
+        <a href="" class="border-2 border-black rounded-full text-lg px-4">Architecture</a>
+      </div>
+      <div class="flex flex-col items-center mt-8 bg-gradient-to-t from-slate-700">
+        <h2 class="capitalize font-semibold text-2xl text-red-800 pb-4">Nos Technologies</h2>
+        <div class="flex flex-col items-center">
+          <i class="fa-brands fa-html5 text-6xl text-red-700"></i>
+          <i class="fa-brands fa-css3-alt text-6xl py-4 text-blue-600"></i>
+          <i class="fa-brands fa-js text-6xl text-yellow-400"></i>
+          <i class="fa-solid fa-database text-6xl py-4"></i>
+          <i class="fa-brands fa-node text-6xl"></i>
+          <i class="fa-brands fa-php text-6xl py-4"></i>
+          <i class="fa-brands fa-react text-6xl"></i>
+        </div>
+      </div>
+    </section>
+    <section class="h-max pt-10 bg-gradient-to-b from-slate-700">
+      <h2 class="flex justify-center capitalize font-semibold text-purple-400 text-2xl pb-4">Notre équipe</h2>
+      <div class="flex flex-col items-center justify-center text-white pb-10">
+        <img src="../../assets/img/king.svg" alt="king" width="15%" height="auto">
+        <h2 class="uppercase font-bold text-red-400 text-xl">Cto</h2>
+        <p class="text-lg">Marcelo Marques</p>
+      </div>
+      <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
+        <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
+        <p class="uppercase font-bold text-blue-300 text-base">Développeur web</p>
+        <h2>Emir Gedikli</h2>
+      </div>
+      <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
+        <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
+        <p class="uppercase font-bold text-blue-300 text-base">Développeur web</p>
+        <h2>Killian Beninio</h2>
+      </div>
+      <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
+        <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
+        <p class="uppercase font-bold text-blue-300 text-base">Développeur web</p>
+        <h2>Gorkem Tumer</h2>
+      </div>
+    </section>
+    <footer class="bg-gradient-to-t ">
+
+    </footer>
   </body>
 </html>
