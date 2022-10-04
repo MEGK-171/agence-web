@@ -10,12 +10,12 @@
   <body class="overflow-x-hidden text-sm md:text-base lg:text-xl ">
     <!--Header-->
     <header class="flex w-full bg-customGreen-greenlight lg:w-full">
-      <img class="w-36 h-36 pl-1 pt-1" src="../../assets/img/metacode-logo_2.png" alt="logo">
+      <img class="w-36 h-36 pl-1 pt-1" src="../../assets/img/metacode-logo.png" alt="logo">
       <div>
         <button
         type="button"
         id="menu-mobile"
-        class="lg:hidden md:hidden cursor-pointer pl-56 pt-6">
+        class="lg:hidden md:hidden cursor-pointer pl-56 pt-10">
         <i class="fa-solid fa-bars text-black fa-xl"></i>
       </button>
       <nav class="flex justify-between decoration-none">
@@ -23,60 +23,58 @@
           id="nav-mobile"
           class=" md:flex md:flex-row md:pt-16 md:pl-16 md:gap-6 lg:pl-36 lg:gap-12 inline-grid grid-cols-2 pt-1 text-sm md:text-base lg:text-lg hidden text-black gap-2"
         >
-          <li class="list-none">
-            <a href="#">Accueil</a>
-          </li>
-          <li class="list-none">
-            <a href="#">Tarifs</a>
-          </li>
-          <li class="list-none">
-            <a href="#">Contact</a>
-          </li>
-          <li class="list-none">
-            <a href="#">Réalisation</a>
-          </li>
-          <li class="list-none">
-            <a href="#">Qui Sommes-Nous?</a>
-          </li>
+        <li class="list-none">
+          <a href="../home/index.html">Accueil</a>
+        </li>
+        <li class="list-none">
+          <a href="../pricing/index.html">Tarifs</a>
+        </li>
+        <li class="list-none">
+          <a href="../informations/index.html">Contact</a>
+        </li>
+        <li class="list-none">
+          <a href="../realizations/index.html">Réalisation</a>
+        </li>
+        <li class="list-none">
+          <a href="../shop/index.html">Qui Sommes-Nous?</a>
+        </li>
         </ul>
       </nav>
       </div>
     </header>
     <!--Header-->
     <!--Body-->
-    <div class="flex flex-col justify-center bg-fixed text-center pt-10 text-white" style="background-image: url(../../assets/img/background.jpg);">
-      <div class="">
+    <div id="root" class="flex flex-col justify-center bg-fixed text-center pt-10 text-white" style="background-image: url(../../assets/img/background.jpg);">
+      <div>
         <h1 class="pb-8">Bienvenue sur notre site</h1>
         <img class="pr-8 pl-8" src="../../assets/img/meeting.jpg" alt="meeting">
-        <p>Venez rencontrer notre équipe, où vous pourrez discuter librement de vos idées et, avec l'aide de notre talentueuse équipe de codage, créer le site Web de vos rêves ! Explorez notre site Web pour en savoir plus.</p>
+        <p class="pr-8 pl-8 pt-8 pb-8">Venez rencontrer notre équipe, où vous pourrez discuter librement de vos idées et, avec l'aide de notre talentueuse équipe de codage, créer le site Web de vos rêves! <br> Explorez notre site Web pour en savoir plus.</p>
         <img class="pr-8 pl-8 pb-3" src="../../assets/img/handshake.jpg" alt="handshake">
         <p>Découvrez nos tarifs, ici !</p>
         <a href="../pricing/#">
-          <button type="button" class="bg-customBlack-blacklightdark w-20 h-8 rounded">Tarifs</button>
+          <button type="button" class="bg-customBlack-blacklight w-20 h-8 rounded hover:shadow-lg">Tarifs</button>
         </a>
-        <p class="pt-8">Lead Dev - Marcelo</p>
+        <p class="pt-8">Lead Dev - <a class="text-customBlack-blacklight" href="marcelomarques-cv.netlify.app">Marcelo</a></p>
         <img class="pr-8 pl-8" src="../../assets/img/bird.jpg" alt="bird">
-        <p class="pt-4">Développeur web - Gorkem</p>
+        <p class="pt-4">Développeur web - <a class="text-customBlack-blacklight" href="https://cv-gorkem.netlify.app/">Gorkem</a></p>
         <img class="pr-8 pl-8" src="../../assets/img/cat.jpg" alt="cat">
         <p class="pt-4">Développeur web - Emir</p>
         <img class="pr-8 pl-8" src="../../assets/img/dog.jpg" alt="dog">
-        <p class="pt-4">Développeur web - Killian</p>
+        <p class="pt-4">Développeur web - <a class="text-customBlack-blacklight" href="https://benigno-cv.netlify.app/">Killian</a></p>
         <img class="pr-8 pl-8 pb-8" src="../../assets/img/tiger.jpg" alt="tiger">
         <a href="../contact/#">
-          <p class="pb-8">Contactez-nous via notre <button type="button" class="bg-customBlack-blacklightdark w-32 lg:w-48 h-8 rounded">Page de Contacts</button></p>
+          <p class="pb-8">Contactez-nous via notre <button type="button" class="bg-customBlack-blacklight w-32 lg:w-48 h-8 rounded hover:shadow-lg">Page de Contacts</button></p>
         </a>
       </div>
     </div>
     <!--Body-->
     <!-- Footer -->
-    <footer
-      class="flex justify-center w-full bg-customGreen-greenlight lg:w-full"
-    >
-      <main class="flex flex-col items-center md:w-5/6">
+    <footer class="flex justify-center w-full bg-customGreen-greenlight lg:w-full">
+      <main class="flex flex-col lg:flex-col-2 items-center md:w-5/6">
         <div class="w-32 h-28 lg:flex lg:flex-col">
           <a href="./index.html"
             ><img
-              src="../../assets/img/metacode-logo_2.png"
+              src="../../assets/img/metacode-logo.png"
               alt="logo"
               class="w-full"
               height="auto"
@@ -98,12 +96,12 @@
           <a href="#"
             ><img src="https://img.icons8.com/color/48/000000/facebook.png"
           /></a>
-          <a href="#"
-            ><img src="https://img.icons8.com/color/48/000000/linkedin.png"
-          /></a>
+          <a href="#">
+            <img src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+          </a>
         </div>
         <hr />
-        <div class="flex flex-col">
+        <div class="flex flex-col lg:flex-cols-2">
           <nav class="">
             <ul class="flex flex-col justify-between items-center mt-6 mb-6 h-44">
               <li>Mentions Légales</li>
@@ -136,8 +134,7 @@
               <div class="flex justify-center mt-5">
                 <button
                   type="button"
-                  class="bg-customGreen-greenlight h-10 w-56 rounded-full md:w-72 md:h-12"
-                >
+                  class="bg-customGreen-greenlight h-10 w-56 rounded-full md:w-72 md:h-12">
                   ENVOYER
                 </button>
               </div>
