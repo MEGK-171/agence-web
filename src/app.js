@@ -1,10 +1,2 @@
 import "./assets/css/styles.css";
-import "@fortawesome/fontawesome-free/js/all";
-
-import Menu from "./components/menu";
-Menu();
-
-import darkMode from "./components/dark-mode";
-darkMode();
-
-let body = document.querySelector("body");
+import "./assets/font-awesome-4.7.0/css/font-awesome.min.css";
