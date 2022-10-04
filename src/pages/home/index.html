@@ -8,60 +8,72 @@
     <link href="../../assets/css/output.css" rel="stylesheet" />
   </head>
   <body class="overflow-x-hidden">
-    <header class="grid grid-cols-2 bg-gradient-to-r fixed w-full h-14 z-10">
-      <div class="flex flex-row items-center pl-2 bg-gradient-to-l from-yellow-700 via-amber-400 to-yellow-800">
+    <header class="flex flex-row bg-gradient-to-r from-green-800 via-green-50 bg-silver fixed w-full h-14 z-10">
+      <div class="flex flex-row items-center pl-4 w-full">
         <i class="fa-solid fa-bars fa-2xl"></i>
       </div>
-      <div class="flex items-center justify-center absolute h-full w-full">
-        <i class="fa-solid fa-house fa-xl"></i>
-      </div>
-      <div class="flex justify-center items-center pr-2 pb-2 bg-silver">
+      <div class="flex justify-center items-center pr-2 pb-2 w-full">
         <h1 class="font-serif italic text-2xl">Meta _ode</h1>
         <div class="absolute pl-5">
           <i class="fa-solid fa-moon fa-lg fa-flip -rotate-6" style="--fa-animation-duration: 4s;"></i>
         </div>
       </div>
     </header> 
-    <section class="flex flex-col justify-center h-screen pt-14 bg-paper bg-cover bg-center z-0">
-      <div class="backdrop-blur-sm h-screen">
-        <div class="flex flex-col items-center justify-center h-screen pb-20">
+    <section class="flex flex-col justify-center h-screen pt-14 bg-paper bg-cover bg-center rounded-lg border-black border-2 mx-7">
+      <div class="h-screen">
+        <div class="flex flex-col items-center justify-center h-screen pb-20 text-white">
           <h2 class="font-semibold text-2xl uppercase">Bienvenue chez</h2>
-          <img src="../../assets/img/metacode-logopng.png" alt="logo" class="object-scale-down">
+          <img src="../../assets/img/metacode.png" alt="logo" width="40%" height="auto" class="bg-silver rounded-full h-36 object-scale-down">
           <p class="uppercase font-bold text-center px-7">Notre expertise developpement web et notre excellence de delivery au service de vos projets de plateforme web</p>
         </div>
       </div>
     </section>
-    <section class="h-max pt-8 bg-gradient-to-b from-yellow-700">
-      <h2 class="flex justify-center capitalize font-semibold text-lime-200 text-2xl pb-4">Nos domaines d'expertise</h2>
-      <div class="flex flex-col items-center justify-around h-96">
+    <section class="flex flex-col items-center justify-between h-screen pt-8 bg-gradient-to-tr from-red-900 bg-silver border-2 border-black rounded-lg mx-7 mt-4">
+      <h2 class="flex justify-center capitalize font-semibold text-2xl text-red-900">Nos domaines d'expertise</h2>
+      <div class="flex flex-col items-center justify-around h-screen text-white">
         <div class="flex flex-col items-center">
-          <p class="uppercase text-lg font-semibold pl-4">Responsive</p>
-          <div class="flex items-end justify-end absolute h-24 pr-16">
-            <img src="../../assets/img/checked-mark.svg" alt="validate" width="15%">
+          <h2 class="uppercase text-lg font-semibold pl-4">Responsive</h2>
+          <div class="flex items-end justify-end absolute h-24 pr-16 pt-28">
+            <img src="../../assets/img/checked-mark.svg" alt="validate" width="15%" height="auto">
           </div>
           <div class="bg-responsive bg-center bg-cover h-40 w-40"></div>
         </div>
-        <p class="text-lg capitalize">Création de site web</p>
-        <p class="text-lg">Référencement</p>
-        <p class="text-lg capitalize">E-commerce</p>
-        <p class="text-lg">Data</p>
-        <p class="text-lg">Architecture</p>
-      </div>
-      <div class="flex flex-col items-center mt-8 bg-gradient-to-t from-bg-silve">
-        <h2 class="capitalize font-semibold text-2xl text-red-800 pb-4">Nos Technologies</h2>
-        <div class="flex flex-col items-center">
-          <i class="fa-brands fa-html5 text-6xl text-red-600"></i>
-          <i class="fa-brands fa-css3-alt text-6xl py-4 text-blue-500"></i>
-          <i class="fa-brands fa-js text-6xl text-yellow-400"></i>
-          <i class="fa-solid fa-database text-6xl py-4 text-blue-300"></i>
-          <i class="fa-brands fa-node text-6xl text-green-300"></i>
-          <i class="fa-brands fa-php text-6xl py-4 text-purple-500"></i>
-          <i class="fa-brands fa-react text-6xl text-cyan-400"></i>
-          <i class="fa-brands fa-bootstrap text-6xl pt-5 text-violet-600"></i>
+        <div class="grid grid-cols-4">
+          <div class="flex flex-col items-end justify-center col-span-3">
+            <h2 class="text-lg uppercase font-semibold">Création de site web</h2>
+            <div class="flex justify-center w-44 pt-8 pr-4">
+              <img src="../../assets/img/website.svg" alt="website" width="48%" height="auto">
+            </div>
+          </div>
+          <div class="flex items-center pt-10">
+            <img src="../../assets/img/checked-mark.svg" alt="validate" width="47%" height="auto">
+          </div>
+        </div>
+        <div class="grid grid-cols-4 pt-12">
+          <div class="flex flex-col items-end justify-center col-span-3 pr-5">
+            <h2 class="text-lg uppercase font-semibold">Référencement</h2>
+            <img src="../../assets/img/seo.png" alt="website" width="50%" height="auto">
+          </div>
+          <div class="flex items-center">
+            <img src="../../assets/img/checked-mark.svg" alt="validate" width="47%" height="auto">
+          </div>
         </div>
       </div>
     </section>
-    <section class="flex flex-col items-center justify-around h-screen pt-10 bg-gradient-to-b from-slate-700 to-yellow-700">
+    <section class="flex flex-col items-center bg-gradient-to-t border-black border-2 rounded-lg mx-7 mt-4">
+      <h2 class="capitalize font-semibold text-2xl text-red-800 pb-4">Nos Technologies</h2>
+      <div class="flex flex-col items-center">
+        <i class="fa-brands fa-html5 text-6xl text-red-600"></i>
+        <i class="fa-brands fa-css3-alt text-6xl py-4 text-blue-500"></i>
+        <i class="fa-brands fa-js text-6xl text-yellow-400"></i>
+        <i class="fa-solid fa-database text-6xl py-4 text-blue-300"></i>
+        <i class="fa-brands fa-node text-6xl text-green-300"></i>
+        <i class="fa-brands fa-php text-6xl py-4 text-purple-500"></i>
+        <i class="fa-brands fa-react text-6xl text-cyan-400"></i>
+        <i class="fa-brands fa-bootstrap text-6xl pt-5 text-violet-600"></i>
+      </div>
+    </section>
+    <section class="flex flex-col items-center justify-around h-screen pt-10 bg-gradient-to-b from-slate-700 to-yellow-700 border-2 border-black rounded-lg mx-7 mt-4">
       <h2 class="flex justify-center capitalize font-semibold text-purple-400 text-2xl pb-4">Notre équipe</h2>
       <div class="flex flex-col items-center justify-center text-white pb-10">
         <img src="../../assets/img/king.svg" alt="king" width="15%" height="auto">
@@ -76,7 +88,7 @@
       <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
         <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
         <p class="uppercase font-bold text-blue-300 text-base">Développeur web</p>
-        <h2>Killian Beninio</h2>
+        <h2>Killian Benigno</h2>
       </div>
       <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
         <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
