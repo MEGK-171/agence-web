@@ -7,340 +7,94 @@
     <title>MetaCode</title>
     <link href="../../assets/css/output.css" rel="stylesheet" />
   </head>
-  <body class="overflow-x-hidden text-sm md:text-base lg:text-lg ">
-    <!-- Header -->
-    <header class="bg-customBlack-blacklightdark h-auto w-screen">
-      <div class="flex justify-center">
-        <button
-          type="button"
-          id="dark-mode"
-          class="cursor-pointer pt-1 z-10 text-white"
-        >
-          <i class="fa-solid fa-toggle-off fa-xl"></i>
-        </button>
+  <body class="overflow-x-hidden">
+    <header class="flex flex-row bg-gradient-to-r from-green-800 via-green-50 bg-silver fixed w-full h-14 z-10">
+      <div class="flex flex-row items-center pl-4 w-full">
+        <i class="fa-solid fa-bars fa-2xl"></i>
       </div>
-      <button
-        type="button"
-        id="menu-mobile"
-        class="cursor-pointer float-right mr-4 pt-2 pr-3">
-        <i class="fa-solid fa-bars text-white fa-xl"></i>
-      </button>
-      <nav class="decoration-none flex justify-between">
-        <a href="#" class="ml-5">
-          <img
-            class="h-auto w-20 md:w-28 lg:w-40"
-            src="./assets/img/logo.jpg"
-            alt="logo"
-          />
-        </a>
-        <ul
-          id="nav-mobile"
-          class="inline-grid grid-cols-2 pt-1 text-sm md:text-base lg:text-lg hidden text-white"
-        >
-          <li class="list-none">
-            <a href="#">Accueil</a>
-          </li>
-          <li></li>
-          <li class="list-none">
-            <a href="#">Tarifs</a>
-          </li>
-          <li class="list-none">
-            <a href="#">Contact</a>
-          </li>
-          <li class="list-none">
-            <a href="#">Réalisation</a>
-          </li>
-          <li class="list-none">
-            <a href="#">Qui Sommes-Nous?</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <div id="root"></div>
-    <!-- Header -->
-    <!-- Body 1 -->
-    <div class="flex flex-col">
-      <div class="grid grid-cols-2 w-screen pl-10 pr-10">
-        <p class="sm:text-sm md:text-base lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit,
-          corrupti suscipit quas soluta voluptates cupiditate accusamus sit vero
-          odio veritatis! Facere atque maiores dicta autem, aliquid vitae
-          tempore obcaecati. Lorem, ipsum dolor sit amet consectetur adipisicing
-          elit. Laudantium tenetur, ipsa laborum necessitatibus libero alias
-          fuga illum? Facilis, dolores ipsum natus tempora eum eaque? Quod
-          repellat cum deserunt perferendis impedit.
-        </p>
-        <img src="./assets/img/img-test-webpack.jpg" alt=""/>
-      </div>
-      <div class="grid grid-cols-2 pt-10 pl-10 pr-6">
-        <p class="sm:text-sm md:text-base lg:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero velit,
-          corrupti suscipit quas soluta voluptates cupiditate accusamus sit vero
-          odio veritatis! Facere atque maiores dicta autem, aliquid vitae
-          tempore obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing
-          elit. In labore eligendi nesciunt, odio eos praesentium ex quasi
-          sapiente rerum minus deserunt libero debitis necessitatibus quae hic
-          nostrum reiciendis, error eaque?
-        </p>
-        <img src="./assets/img/img-test-webpack.jpg" alt="" />
-      </div>
-    </div>
-    <!-- Body 1 -->
-    <!-- Body 2 -->
-    <div class="min-h-screen lg:min-h-screen">
-      <div class="bg-zinc-900 h-max md:h-max lg:grid lg:grid-cols-5">
-        <section>
-          <div
-            class="flex flex-col pt-3 md:flex md:justify-center md:pr-4 lg:flex lg:flex-col-reverse"
-          >
-            <div
-              class="lg:flex lg:items-center lg:pb-3 lg:h-32 xl:pt-3 xl:h-44 2xl:h-56"
-            >
-              <div>
-                <img
-                  src="./assets/img/img-test-webpack.jpg"
-                  alt="reunion"
-                  width="300px"
-                  height="550px"
-                  class="w-full px-4"
-                />
-              </div>
-            </div>
-            <div class="flex text-center px-4">
-              <p class="md:text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                ratione numquam maxime, quae, repudiandae neque, iste laborum ut
-                saepe optio autem quidem odio molestias magni quod. Excepturi
-                necessitatibus aliquid ullam.
-              </p>
-            </div>
-            <div
-              class="flex justify-center items-center h-20 md:flex md:items-end md:justify-center lg:hidden">
-              <a
-                href="../shop/index.html"
-                class="flex justify-center text-green-400 text-lg bg-black rounded-none mb-3 w-28 h-7 md:py-2 md:w-36 md:h-12"
-                >BUTTON</a
-              >
-            </div>
-          </div>
-        </section>
-        <section>
-          <div
-            class="flex flex-col pt-3 md:flex md:justify-center md:pr-4 lg:flex lg:flex-col-reverse"
-          >
-            <div class="lg:mt-6">
-              <img
-                src="./assets/img/img-test-webpack.jpg"
-                alt="reunion"
-                width="300px"
-                height="550px"
-                class="w-full px-4"
-              />
-            </div>
-            <div class="flex text-center px-4">
-              <p class="md:text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                ratione numquam maxime, quae, repudiandae neque, iste laborum ut
-                saepe optio autem quidem odio molestias magni quod. Excepturi
-                necessitatibus aliquid ullam.
-              </p>
-            </div>
-            <div
-              class="flex justify-center items-center h-20 md:flex md:items-end lg:hidden"
-            >
-              <a
-                href="../shop/index.html"
-                class="flex justify-center text-green-400 text-lg bg-black rounded-none mb-3 w-28 h-7 md:py-2 md:w-36 md:h-12"
-                >BUTTON</a
-              >
-            </div>
-          </div>
-        </section>
-        <section>
-          <div
-            class="flex flex-col pt-3 md:flex md:justify-center md:pr-4 lg:flex lg:flex-col-reverse"
-          >
-            <div class="lg:mt-6">
-              <img
-                src="./assets/img/img-test-webpack.jpg"
-                alt="reunion"
-                width="300px"
-                height="550px"
-                class="w-full px-4"
-              />
-            </div>
-            <div class="flex text-center px-4">
-              <p class="md:text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                ratione numquam maxime, quae, repudiandae neque, iste laborum ut
-                saepe optio autem quidem odio molestias magni quod. Excepturi
-                necessitatibus aliquid ullam.
-              </p>
-            </div>
-            <div
-              class="flex justify-center items-center h-20 md:flex md:items-end lg:hidden"
-            >
-              <a
-                href="../shop/index.html"
-                class="flex justify-center text-green-400 text-lg bg-black rounded-none mb-3 w-28 h-7 md:py-2 md:w-36 md:h-12"
-                >BUTTON</a
-              >
-            </div>
-          </div>
-        </section>
-        <section>
-          <div
-            class="flex flex-col pt-3 md:flex md:justify-center md:pr-4 lg:flex lg:flex-col-reverse"
-          >
-            <div class="lg:mt-6">
-              <img
-                src="./assets/img/img-test-webpack.jpg"
-                alt="reunion"
-                width="300px"
-                height="550px"
-                class="w-full px-4"
-              />
-            </div>
-            <div class="flex text-center px-4">
-              <p class="md:text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                ratione numquam maxime, quae, repudiandae neque, iste laborum ut
-                saepe optio autem quidem odio molestias magni quod. Excepturi
-                necessitatibus aliquid ullam.
-              </p>
-            </div>
-            <div
-              class="flex justify-center items-center h-20 md:flex md:items-end lg:hidden"
-            >
-              <a
-                href="../shop/index.html"
-                class="flex justify-center text-green-400 text-lg bg-black rounded-none mb-3 w-28 h-7 md:py-2 md:w-36 md:h-12"
-                >BUTTON</a
-              >
-            </div>
-          </div>
-        </section>
-        <section>
-          <div
-            class="flex flex-col pt-3 md:flex md:justify-center md:pr-4 lg:flex lg:flex-col-reverse"
-          >
-            <div class="lg:mt-6">
-              <img
-                src="./assets/img/img-test-webpack.jpg"
-                alt="reunion"
-                width="300px"
-                height="550px"
-                class="w-full px-4"
-              />
-            </div>
-            <div class="flex text-center px-4">
-              <p class="md:text-center">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                ratione numquam maxime, quae, repudiandae neque, iste laborum ut
-                saepe optio autem quidem odio molestias magni quod. Excepturi
-                necessitatibus aliquid ullam.
-              </p>
-            </div>
-            <div
-              class="flex justify-center items-center h-20 md:flex md:items-end lg:hidden"
-            >
-              <a
-                href="http://localhost:8081/shop.html"
-                class="flex justify-center text-green-400 text-lg bg-black rounded-none mb-3 w-28 h-7 md:py-2 md:w-36 md:h-12"
-                >BUTTON</a
-              >
-            </div>
-          </div>
-        </section>
-        <div
-          class="hidden lg:flex lg:justify-center lg:my-8 lg:col-span-5 lg:w-full lg:text-sm"
-        >
-          <a
-            href="http://localhost:8081/shop.html"
-            class="flex justify-center text-green-400 text-lg bg-black rounded-full mb-3 w-96 h-16 xl lg:flex lg:items-center"
-            >VOIR BOUTIQUE</a
-          >
+      <div class="flex justify-center items-center pr-2 pb-2 w-full">
+        <h1 class="font-serif italic text-2xl">Meta _ode</h1>
+        <div class="absolute pl-5">
+          <i class="fa-solid fa-moon fa-lg fa-flip -rotate-6" style="--fa-animation-duration: 4s;"></i>
         </div>
       </div>
-    </div>
-    <!-- Body 2 -->
-    <!-- Footer -->
-    <footer
-      class="flex justify-center w-full bg-customGreen-greenlight lg:w-full"
-    >
-      <main class="flex flex-col w-96 md:w-5/6">
-        <div class="w-64 mt-5 lg:flex lg:flex-col">
-          <a href="./index.html"
-            ><img
-              src="./assets/img/logo-s.jpg"
-              alt="logo-secondaire"
-              class="w-full"
-              height="auto"
-          /></a>
+    </header> 
+    <section class="flex flex-col justify-center h-screen pt-14 bg-paper bg-cover bg-center rounded-lg border-black border-2 mx-7">
+      <div class="h-screen">
+        <div class="flex flex-col items-center justify-center h-screen pb-20 text-white">
+          <h2 class="font-semibold text-2xl uppercase">Bienvenue chez</h2>
+          <img src="../../assets/img/metacode.png" alt="logo" width="40%" height="auto" class="bg-silver rounded-full h-36 object-scale-down">
+          <p class="uppercase font-bold text-center px-7">Notre expertise developpement web et notre excellence de delivery au service de vos projets de plateforme web</p>
         </div>
-        <div class="text-center text-sm mt-3">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            provident deleniti odit quis voluptate, inventore fuga, dolorum
-            laboriosam optio reprehenderit, quae necessitatibus blanditiis
-            adipisci placeat quam vel dolor vitae! Aut.
-          </p>
+      </div>
+    </section>
+    <section class="flex flex-col items-center justify-between h-screen pt-8 bg-gradient-to-tr from-red-900 bg-silver border-2 border-black rounded-lg mx-7 mt-4">
+      <h2 class="flex justify-center capitalize font-semibold text-2xl text-red-900">Nos domaines d'expertise</h2>
+      <div class="flex flex-col items-center justify-around h-screen text-white">
+        <div class="flex flex-col items-center">
+          <h2 class="uppercase text-lg font-semibold pl-4">Responsive</h2>
+          <div class="flex items-end justify-end absolute h-24 pr-16 pt-28">
+            <img src="../../assets/img/checked-mark.svg" alt="validate" width="15%" height="auto">
+          </div>
+          <div class="bg-responsive bg-center bg-cover h-40 w-40"></div>
         </div>
-        <div class="flex flex-row justify-around w-96 mt-5 mb-3 md:w-full">
-          <a href="#"
-            ><img
-              src="https://img.icons8.com/color/48/000000/instagram-new--v1.png"
-          /></a>
-          <a href="#"
-            ><img src="https://img.icons8.com/color/48/000000/facebook.png"
-          /></a>
-          <a href="#"
-            ><img src="https://img.icons8.com/color/48/000000/linkedin.png"
-          /></a>
+        <div class="grid grid-cols-4">
+          <div class="flex flex-col items-end justify-center col-span-3">
+            <h2 class="text-lg uppercase font-semibold">Création de site web</h2>
+            <div class="flex justify-center w-44 pt-8 pr-4">
+              <img src="../../assets/img/website.svg" alt="website" width="48%" height="auto">
+            </div>
+          </div>
+          <div class="flex items-center pt-10">
+            <img src="../../assets/img/checked-mark.svg" alt="validate" width="47%" height="auto">
+          </div>
         </div>
-        <hr />
-        <div class="flex flex-col">
-          <nav class="">
-            <ul class="flex flex-col justify-between mt-6 mb-6 h-44">
-              <li>Mentions Légales</li>
-              <li>Confidentialité</li>
-              <li>Politique de cookies</li>
-              <li>Recrutement</li>
-            </ul>
-            <hr />
-            <ul class="flex flex-col justify-between mt-6 mb-6 h-40">
-              <li class="uppercase font-semibold">Contact</li>
-              <li>
-                30 boulevard du Chevalier Bayard <br />
-                77100 Meaux
-              </li>
-              <li>06.06.06.06.06</li>
-              <li>agence-web77@gmail.com</li>
-            </ul>
-            <hr />
-            <ul class="flex flex-col justify-between mt-6 mb-6 h-28">
-              <li class="uppercase font-semibold">Newsletter</li>
-              <form>
-                <label for="e-mail">E-mail:</label>
-                <input
-                  class="rounded-xl text-center bg-gray-800 mt-3"
-                  type="text"
-                  name="e-mail"
-                  id="e-mail"
-                />
-              </form>
-              <div class="flex justify-center mt-5">
-                <button
-                  type="button"
-                  class="bg-customGreen-greenlight h-10 w-56 rounded-full md:w-72 md:h-12"
-                >
-                  ENVOYER
-                </button>
-              </div>
-            </ul>
-          </nav>
+        <div class="grid grid-cols-4 pt-12">
+          <div class="flex flex-col items-end justify-center col-span-3 pr-5">
+            <h2 class="text-lg uppercase font-semibold">Référencement</h2>
+            <img src="../../assets/img/seo.png" alt="website" width="50%" height="auto">
+          </div>
+          <div class="flex items-center">
+            <img src="../../assets/img/checked-mark.svg" alt="validate" width="47%" height="auto">
+          </div>
         </div>
-      </main>
-    </footer>
+      </div>
+    </section>
+    <section class="flex flex-col items-center bg-gradient-to-t border-black border-2 rounded-lg mx-7 mt-4">
+      <h2 class="capitalize font-semibold text-2xl text-red-800 pb-4">Nos Technologies</h2>
+      <div class="flex flex-col items-center">
+        <i class="fa-brands fa-html5 text-6xl text-red-600"></i>
+        <i class="fa-brands fa-css3-alt text-6xl py-4 text-blue-500"></i>
+        <i class="fa-brands fa-js text-6xl text-yellow-400"></i>
+        <i class="fa-solid fa-database text-6xl py-4 text-blue-300"></i>
+        <i class="fa-brands fa-node text-6xl text-green-300"></i>
+        <i class="fa-brands fa-php text-6xl py-4 text-purple-500"></i>
+        <i class="fa-brands fa-react text-6xl text-cyan-400"></i>
+        <i class="fa-brands fa-bootstrap text-6xl pt-5 text-violet-600"></i>
+      </div>
+    </section>
+    <section class="flex flex-col items-center justify-around h-screen pt-10 bg-gradient-to-b from-slate-700 to-yellow-700 border-2 border-black rounded-lg mx-7 mt-4">
+      <h2 class="flex justify-center capitalize font-semibold text-purple-400 text-2xl pb-4">Notre équipe</h2>
+      <div class="flex flex-col items-center justify-center text-white pb-10">
+        <img src="../../assets/img/king.svg" alt="king" width="15%" height="auto">
+        <h2 class="uppercase font-bold text-red-400 text-xl">Cto</h2>
+        <p class="text-lg">Marcelo Marques</p>
+      </div>
+      <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
+        <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
+        <p class="uppercase font-bold text-blue-300 text-base">Développeur web</p>
+        <h2>Emir Gedikli</h2>
+      </div>
+      <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
+        <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
+        <p class="uppercase font-bold text-blue-300 text-base">Développeur web</p>
+        <h2>Killian Benigno</h2>
+      </div>
+      <div class="flex flex-col items-center justify-center capitalize text-white pb-10">
+        <img src="../../assets/img/computer.svg" alt="computer" width="10%" height="auto">
+        <p class="uppercase font-bold text-blue-300 text-base">Développeur web</p>
+        <h2>Gorkem Tumer</h2>
+      </div>
+    </section>
   </body>
 </html>
