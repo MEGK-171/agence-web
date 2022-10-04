@@ -7,8 +7,3 @@
   src: url("../fonts/Roboto/Roboto-Italic.ttf") format("truetype");
   font-weight: 600;
   font-style: normal;
-}
-
-.hello {
-  font-family: "Roboto";
-};

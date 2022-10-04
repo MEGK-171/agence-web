@@ -15,7 +15,4 @@ module.exports = {
         'paper': "url(../img/paper.svg)"
       }
     },
-  },
-  plugins: [],
 };
-
