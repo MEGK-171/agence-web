@@ -18,8 +18,20 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/shop/index.html"),
-      filename: "shop.html",
+      template: path.resolve(__dirname, "./src/pages/informations/index.html"),
+      filename: "a-propos.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/pricing/index.html"),
+      filename: "tarifs.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/contact/index.html"),
+      filename: "contact.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: path.resolve(__dirname, "./src/pages/realizations/index.html"),
+      filename: "gallerie.html",
     }),
     new CopyPlugin({
       patterns: [
