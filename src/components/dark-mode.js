@@ -4,7 +4,7 @@ const body = document.querySelector("body");
 
 
 const darkMode = () => {
-  body.classList.toggle("bg-customBlack-blacklightdark");
+  body.classList.toggle("bg-black");
   
   body.classList.toggle("text-white");
 };

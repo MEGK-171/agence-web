@@ -5,6 +5,10 @@ const colors = require("tailwindcss/colors");
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
+    colors: {
+      silver: "#C0C0C0",
+      ...colors
+    },
     extend: {},
   },
   plugins: [],
