@@ -13,7 +13,8 @@ module.exports = {
       backgroundImage: {
         'responsive': "url('../img/responsive.png')",
         'paper': "url(../img/paper.svg)",
-        'moon': "url(../img.moon.svg)"
+        'moon': "url(../img/moon.svg)",
+        'intro': "url(../img/intro.jpg)"
       }
     },
   },
