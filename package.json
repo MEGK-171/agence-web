@@ -13,7 +13,7 @@
     "build:tailwind": "tailwindcss -i ./src/assets/css/styles.css -o ./dist/assets/css/output.css"
   },
   "keywords": [],
-  "author": "mrp-171",
+  "author": "mekg-171",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.18.10",
