@@ -18,17 +18,14 @@ module.exports = {
       filename: "index.html",
     }),
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/pricing/index.html"),
-      filename: "tarifs.html",
-    }),
-    new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "./src/pages/contact/index.html"),
-      filename: "contact.html",
+      template: path.resolve(__dirname, "./src/pages/shop/index.html"),
+      filename: "shop.html",
     }),
     new CopyPlugin({
       patterns: [
         { from: "./src/assets/fonts/", to: "assets/fonts/" },
         { from: "./src/assets/img/", to: "assets/img/" },
+        { from: "./src/assets/css/", to: "assets/css/" },
       ],
     }),
   ],
