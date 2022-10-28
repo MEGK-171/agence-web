@@ -23,7 +23,7 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "./src/pages/shop/index.html"),
-      filename: "shop.html",
+      filename: "tarifs.html",
     }),
     new CopyPlugin({
       patterns: [
